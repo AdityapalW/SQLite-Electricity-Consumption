@@ -1,0 +1,269 @@
+id,household_name,consumption_kwh
+1,Household_1,493.12
+2,Household_2,305.91
+3,Household_3,528.57
+4,Household_4,264.04
+5,Household_5,984.04
+6,Household_6,103.83
+7,Household_7,828.53
+8,Household_8,698.2
+9,Household_9,421.68
+10,Household_10,994.6
+11,Household_11,434.09
+12,Household_12,932.28
+13,Household_13,493.76
+14,Household_14,562.36
+15,Household_15,218.31
+16,Household_16,540.26
+17,Household_17,773.36
+18,Household_18,223.1
+19,Household_19,265.77
+20,Household_20,813.37
+21,Household_21,805.93
+22,Household_22,390.28
+23,Household_23,995.86
+24,Household_24,676.13
+25,Household_25,325.62
+26,Household_26,623.04
+27,Household_27,532.29
+28,Household_28,735.97
+29,Household_29,333.73
+30,Household_30,483.99
+31,Household_31,129.78
+32,Household_32,409.12
+33,Household_33,168.1
+34,Household_34,495.56
+35,Household_35,715.29
+36,Household_36,363.11
+37,Household_37,201.04
+38,Household_38,815.57
+39,Household_39,111.99
+40,Household_40,417.54
+41,Household_41,677.95
+42,Household_42,159.83
+43,Household_43,100.76
+44,Household_44,530.17
+45,Household_45,338.32
+46,Household_46,650.1
+47,Household_47,487.44
+48,Household_48,668.06
+49,Household_49,405.1
+50,Household_50,107.53
+.archive ...             Manage SQL archives
+.auth ON|OFF             Show authorizer callbacks
+.backup ?DB? FILE        Backup DB (default "main") to FILE
+.bail on|off             Stop after hitting an error.  Default OFF
+.cd DIRECTORY            Change the working directory to DIRECTORY
+.changes on|off          Show number of rows changed by SQL
+.check GLOB              Fail if output since .testcase does not match
+.clone NEWDB             Clone data into NEWDB from the existing database
+.connection [close] [#]  Open or close an auxiliary database connection
+.databases               List names and files of attached databases
+.dbconfig ?op? ?val?     List or change sqlite3_db_config() options
+.dbinfo ?DB?             Show status information about the database
+.dump ?OBJECTS?          Render database content as SQL
+.echo on|off             Turn command echo on or off
+.eqp on|off|full|...     Enable or disable automatic EXPLAIN QUERY PLAN
+.excel                   Display the output of next command in spreadsheet
+.exit ?CODE?             Exit this program with return-code CODE
+.expert                  EXPERIMENTAL. Suggest indexes for queries
+.explain ?on|off|auto?   Change the EXPLAIN formatting mode.  Default: auto
+.filectrl CMD ...        Run various sqlite3_file_control() operations
+.fullschema ?--indent?   Show schema and the content of sqlite_stat tables
+.headers on|off          Turn display of headers on or off
+.help ?-all? ?PATTERN?   Show help text for PATTERN
+.hex-rekey OLD NEW NEW   Change the encryption key using hexadecimal
+.import FILE TABLE       Import data from FILE into TABLE
+.import FILE TABLE       Import data from FILE into TABLE
+.indexes ?TABLE?         Show names of indexes
+.limit ?LIMIT? ?VAL?     Display or change the value of an SQLITE_LIMIT
+.lint OPTIONS            Report potential schema issues.
+.log FILE|on|off         Turn logging on or off.  FILE can be stderr/stdout
+.mode MODE ?OPTIONS?     Set output mode
+.nonce STRING            Suspend safe mode for one command if nonce matches
+.nullvalue STRING        Use STRING in place of NULL values
+.once ?OPTIONS? ?FILE?   Output for the next SQL command only to FILE
+.open ?OPTIONS? ?FILE?   Close existing database and reopen FILE
+.output ?FILE?           Send output to FILE or stdout if FILE is omitted
+.parameter CMD ...       Manage SQL parameter bindings
+.print STRING...         Print literal STRING
+.progress N              Invoke progress handler after every N opcodes
+.prompt MAIN CONTINUE    Replace the standard prompts
+.quit                    Stop interpreting input stream, exit if primary.
+.read FILE               Read input from FILE or command output
+.recover                 Recover as much data as possible from corrupt db.
+.rekey OLD NEW NEW     Change the encryption key
+.restore ?DB? FILE       Restore content of DB (default "main") from FILE
+.save ?OPTIONS? FILE     Write database to FILE (an alias for .backup ...)
+.scanstats on|off|est    Turn sqlite3_stmt_scanstatus() metrics on or off
+.schema ?PATTERN?        Show the CREATE statements matching PATTERN
+.separator COL ?ROW?     Change the column and row separators
+.session ?NAME? CMD ...  Create or control sessions
+.sha3sum ...             Compute a SHA3 hash of database content
+.shell CMD ARGS...       Run CMD ARGS... in a system shell
+.show                    Show the current values for various settings
+.stats ?ARG?             Show stats or turn stats on or off
+.system CMD ARGS...      Run CMD ARGS... in a system shell
+.tables ?TABLE?          List names of tables matching LIKE pattern TABLE
+.text-rekey OLD NEW NEW  Change the encryption key using hexadecimal
+.timeout MS              Try opening locked tables for MS milliseconds
+.timer on|off            Turn SQL timer on or off
+.trace ?OPTIONS?         Output each SQL statement as it is run
+.version                 Show source, library and compiler versions
+.vfsinfo ?AUX?           Information about the top-level VFS
+.vfslist                 List all available VFSes
+.vfsname ?AUX?           Print the name of the VFS stack
+.width NUM1 NUM2 ...     Set minimum column widths for columnar output
+id  household_name  consumption_kwh
+--  --------------  ---------------
+1   Household_1     493.12         
+2   Household_2     305.91         
+3   Household_3     528.57         
+4   Household_4     264.04         
+5   Household_5     984.04         
+6   Household_6     103.83         
+7   Household_7     828.53         
+8   Household_8     698.2          
+9   Household_9     421.68         
+10  Household_10    994.6          
+11  Household_11    434.09         
+12  Household_12    932.28         
+13  Household_13    493.76         
+14  Household_14    562.36         
+15  Household_15    218.31         
+16  Household_16    540.26         
+17  Household_17    773.36         
+18  Household_18    223.1          
+19  Household_19    265.77         
+20  Household_20    813.37         
+21  Household_21    805.93         
+22  Household_22    390.28         
+23  Household_23    995.86         
+24  Household_24    676.13         
+25  Household_25    325.62         
+26  Household_26    623.04         
+27  Household_27    532.29         
+28  Household_28    735.97         
+29  Household_29    333.73         
+30  Household_30    483.99         
+31  Household_31    129.78         
+32  Household_32    409.12         
+33  Household_33    168.1          
+34  Household_34    495.56         
+35  Household_35    715.29         
+36  Household_36    363.11         
+37  Household_37    201.04         
+38  Household_38    815.57         
+39  Household_39    111.99         
+40  Household_40    417.54         
+41  Household_41    677.95         
+42  Household_42    159.83         
+43  Household_43    100.76         
+44  Household_44    530.17         
+45  Household_45    338.32         
+46  Household_46    650.1          
+47  Household_47    487.44         
+48  Household_48    668.06         
+49  Household_49    405.1          
+50  Household_50    107.53         
+id|household_name|consumption_kwh
+1|Household_1|493.12
+2|Household_2|305.91
+3|Household_3|528.57
+4|Household_4|264.04
+5|Household_5|984.04
+6|Household_6|103.83
+7|Household_7|828.53
+8|Household_8|698.2
+9|Household_9|421.68
+10|Household_10|994.6
+11|Household_11|434.09
+12|Household_12|932.28
+13|Household_13|493.76
+14|Household_14|562.36
+15|Household_15|218.31
+16|Household_16|540.26
+17|Household_17|773.36
+18|Household_18|223.1
+19|Household_19|265.77
+20|Household_20|813.37
+21|Household_21|805.93
+22|Household_22|390.28
+23|Household_23|995.86
+24|Household_24|676.13
+25|Household_25|325.62
+26|Household_26|623.04
+27|Household_27|532.29
+28|Household_28|735.97
+29|Household_29|333.73
+30|Household_30|483.99
+31|Household_31|129.78
+32|Household_32|409.12
+33|Household_33|168.1
+34|Household_34|495.56
+35|Household_35|715.29
+36|Household_36|363.11
+37|Household_37|201.04
+38|Household_38|815.57
+39|Household_39|111.99
+40|Household_40|417.54
+41|Household_41|677.95
+42|Household_42|159.83
+43|Household_43|100.76
+44|Household_44|530.17
+45|Household_45|338.32
+46|Household_46|650.1
+47|Household_47|487.44
+48|Household_48|668.06
+49|Household_49|405.1
+50|Household_50|107.53
+1|Household_1|493.12
+2|Household_2|305.91
+3|Household_3|528.57
+4|Household_4|264.04
+5|Household_5|984.04
+6|Household_6|103.83
+7|Household_7|828.53
+8|Household_8|698.2
+9|Household_9|421.68
+10|Household_10|994.6
+11|Household_11|434.09
+12|Household_12|932.28
+13|Household_13|493.76
+14|Household_14|562.36
+15|Household_15|218.31
+16|Household_16|540.26
+17|Household_17|773.36
+18|Household_18|223.1
+19|Household_19|265.77
+20|Household_20|813.37
+21|Household_21|805.93
+22|Household_22|390.28
+23|Household_23|995.86
+24|Household_24|676.13
+25|Household_25|325.62
+26|Household_26|623.04
+27|Household_27|532.29
+28|Household_28|735.97
+29|Household_29|333.73
+30|Household_30|483.99
+31|Household_31|129.78
+32|Household_32|409.12
+33|Household_33|168.1
+34|Household_34|495.56
+35|Household_35|715.29
+36|Household_36|363.11
+37|Household_37|201.04
+38|Household_38|815.57
+39|Household_39|111.99
+40|Household_40|417.54
+41|Household_41|677.95
+42|Household_42|159.83
+43|Household_43|100.76
+44|Household_44|530.17
+45|Household_45|338.32
+46|Household_46|650.1
+47|Household_47|487.44
+48|Household_48|668.06
+49|Household_49|405.1
+50|Household_50|107.53
